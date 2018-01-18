@@ -1,7 +1,7 @@
 package code;
 
-import java.util.List;
 
+import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 public class Demo {
@@ -46,6 +46,5 @@ public class Demo {
 		}
 		session.commit();
 		session.close();
-		
 	}
 }
